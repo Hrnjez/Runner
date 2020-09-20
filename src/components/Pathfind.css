@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: fit-content;
+    margin: auto;
+}
+.row-wrapper {
+    display: flex;
+
+}
+
+.run-btn {
+    margin:20px;
+    width:300px;
+    height: 100px;
+    font-size: 35px;
+    color:#fff;
+    background-color: rgba(53, 124, 124, 0.8);
+    border:0;
+    outline: none;
+    text-decoration: none;
+}
+.run-btn:hover {
+    background-color: rgba(53, 124, 124, 0.9);
+    cursor:pointer;
+}
+.fa-cog {
+    color: rgba(53, 124, 124, 0.9);
+}
