@@ -38,25 +38,7 @@ const Home = ({ setStructure }) =>  {
       </button>
     </Link>
     </div>
-    <div className="settings-page">
-      <h2><span>Maze</span> Structure </h2>
-      <div className="structure">
-        <div>
-        <span>Number of columns</span> 
-          <select onChange={structureHandler} name="colNum" className="selectCol" id='col'> 
-          <option value="5">5</option>
-          <option value="10">10</option> 
-          </select>
-        </div>
-          <div>
-          <span>Number of Rows</span> 
-          <select onChange={structureHandler} name="colRow" className="selectRow" id='row'> 
-          <option value="5">5</option>
-          <option value="10">10</option> 
-          </select>
-          </div>
-      </div>
-    </div>
+
   </div>
     )
 }
