@@ -14,10 +14,10 @@ function Nav() {
             <i className="fas fa-chess-board fa-4x"></i>
         </Link>
         <ul className="nav-links">
-            <Link style={navStyle} to="/Play">
+            <Link style={navStyle} to="/Runner/Play">
             <li>Play</li>
             </Link>
-            <Link style={navStyle} to="/settings">
+            <Link style={navStyle} to="/Runner/settings">
             <li>Settigns</li>
             </Link>
         </ul>

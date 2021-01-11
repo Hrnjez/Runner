@@ -16,9 +16,9 @@ const [structure, setStructure] = useState(5);
     <div className="App"  >
 
       <Nav/>
-      <Route path="/"setStructure={setStructure} exact render = {() => <Home setStructure={setStructure} />}/>
-      <Route path="/settings" component={Settings}/>
-      <Route path="/play"   render = {() => <Play structure={structure}  />}/>
+      <Route path="/Runner/"setStructure={setStructure} exact render = {() => <Home setStructure={setStructure} />}/>
+      <Route path="/Runner/settings" component={Settings}/>
+      <Route path="/Runner/play"   render = {() => <Play structure={structure}  />}/>
     </div>
     </Router>
   );
